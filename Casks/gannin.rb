@@ -2,8 +2,7 @@ cask "gannin" do
   version "0.0.5"
   sha256 "eb7ed7e8ed612042b9073445970b671b5279fb3e4f826da8604a028a9bf68010"
 
-  url "https://github.com/andrew-waters/gannin/releases/download/v#{version}/Gannin-#{version}.dmg",
-      verified: "github.com/andrew-waters/gannin/"
+  url "https://github.com/andrew-waters/gannin/releases/download/v#{version}/Gannin-#{version}.dmg"
   name "Gannin"
   desc "Workload across the GitHub orgs you belong to"
   homepage "https://gannin.ai/"
